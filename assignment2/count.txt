@@ -1,0 +1,4 @@
+15
+
+select distinct docid, count(*) from Frequency f where f.term = 'parliament'; 
+

@@ -1,0 +1,3 @@
+3
+
+ select f1.docid from Frequency as f1, Frequency as f2 where f1.docid = f2.docid and f1.term = 'transactions' and f2.term = 'world';
